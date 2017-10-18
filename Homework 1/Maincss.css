@@ -1,0 +1,143 @@
+﻿@media screen and (min-width: 992px) /*bilgisayar ekranı*/
+{
+    body {
+        background-color: forestgreen; /* sayfanın arka plan rengi*/
+    }
+
+    .box1 {
+        background-color: royalblue; /*kutucuğun arka plan rengi*/
+        font-size: 20px; /*kutucuğun içindeki font büyüklüğü; yazı vb.*/
+        width: 30vw; /*kutucuğun yatay uzunluğu*/
+        height: 60vh; /*kutucuğun dikey uzunluğu*/
+        float: left; /*kutucuğu sola yaslamak için*/
+        border: 3px solid black; /*kutucuğun dışına çerçeve eklemek için*/
+        margin: 158px auto auto 2.1vw; /*margin: top right bottom left ayarlamaları*/
+    }
+
+    .box2 {
+        background-color: deepskyblue; /*kutucuğun arka plan rengi*/
+        font-size: 20px; /*kutucuğun içindeki font büyüklüğü; yazı vb.*/
+        float: left; /*kutucuğu sola yaslamak için*/
+        width: 30vw; /*kutucuğun yatay uzunluğu*/
+        height: 60vh; /*kutucuğun dikey uzunluğu*/
+        border: 3px solid black; /*kutucuğun dışına çerçeve eklemek için*/
+        margin: 158px auto auto 2.1vw; /*margin: top right bottom left ayarlamaları*/
+    }
+
+    .box3 {
+        background-color: lavender; /*kutucuğun arka plan rengi*/
+        font-size: 20px; /*kutucuğun içindeki font büyüklüğü; yazı vb.*/
+        float: left; /*kutucuğu sola yaslamak için*/
+        width: 30vw; /*kutucuğun yatay uzunluğu*/
+        height: 60vh; /*kutucuğun dikey uzunluğu*/
+        border: 3px solid black; /*kutucuğun dışına çerçeve eklemek için*/
+        margin: 158px auto auto 2.1vw;/*margin: top right bottom left ayarlamaları*/
+    }
+}
+@media screen and (max-width: 991px) and (min-width: 768px) /* tablet ekranı*/
+{
+    body {
+        background-color: aqua; /*sayfanın arka plan rengi*/
+    }
+    .box1 {
+        background-color: royalblue; /*kutucuğun arka plan rengi*/
+        font-size: 20px; /*kutucuğun içindeki font büyüklüğü; yazı vb.*/
+        width: 45vw; /*kutucuğun yatay uzunluğu*/
+        height: 60vh; /*kutucuğun dikey uzunluğu*/
+        float: left; /*kutucuğu sola yaslamak için*/
+        border: 3px solid black; /*kutucuğun dışına çerçeve eklemek için*/
+        margin: 158px auto auto 2.1vw;/*margin: top right bottom left ayarlamaları*/
+    }
+
+    .box2 {
+        background-color: deepskyblue; /*kutucuğun arka plan rengi*/
+        font-size: 20px; /*kutucuğun içindeki font büyüklüğü; yazı vb.*/
+        float: left; /*kutucuğu sola yaslamak için*/
+        width: 45vw; /*kutucuğun yatay uzunluğu*/
+        height: 60vh; /*kutucuğun dikey uzunluğu*/
+        border: 3px solid black; /*kutucuğun dışına çerçeve eklemek için*/
+        margin: 158px auto auto 2.1vw; /*margin: top right bottom left ayarlamaları*/
+    }
+
+    .box3 {
+        background-color: lavender; /*kutucuğun arka plan rengi*/
+        font-size: 20px; /*kutucuğun içindeki font büyüklüğü; yazı vb.*/
+        float: left; /*kutucuğu sola yaslamak için*/
+        width: 93vw; /*kutucuğun yatay uzunluğu*/
+        height: 60vh; /*kutucuğun dikey uzunluğu*/
+        border: 3px solid black; /*kutucuğun dışına çerçeve eklemek için*/
+        margin: 158px auto auto 2.1vw; /*margin: top right bottom left ayarlamaları*/
+    }
+}
+@media screen and (max-width: 767px) /*mobil ekran*/
+{
+    body {
+        background-color: brown; /*sayfanın arka plan rengi*/
+    }
+
+    .box1 {
+        background-color: royalblue; /*kutucuğun arka plan rengi*/
+        font-size: 20px; /*kutucuğun içindeki font büyüklüğü; yazı vb.*/
+        width: 92.3vw; /*kutucuğun yatay uzunluğu*/
+        height: 60vh; /*kutucuğun dikey uzunluğu*/
+        float: left; /*kutucuğu sola yaslamak için*/
+        border: 3px solid black; /*kutucuğun dışına çerçeve eklemek için*/
+        margin: 158px auto auto 2vw; /*margin: top right bottom left ayarlamaları*/
+    }
+
+    .box2 {
+        background-color: deepskyblue; /*kutucuğun arka plan rengi*/
+        font-size: 20px; /*kutucuğun içindeki font büyüklüğü; yazı vb.*/
+        float: left; /*kutucuğu sola yaslamak için*/
+        width: 92.3vw; /*kutucuğun yatay uzunluğu*/
+        height: 60vh; /*kutucuğun dikey uzunluğu*/
+        border: 3px solid black; /*kutucuğun dışına çerçeve eklemek için*/
+        margin: 158px auto auto 2vw /*margin: top right bottom left ayarlamaları*/
+    }
+
+    .box3 {
+        background-color: lavender; /*kutucuğun arka plan rengi*/
+        font-size: 20px; /*kutucuğun içindeki font büyüklüğü; yazı vb.*/
+        float: left; /*kutucuğu sola yaslamak için*/
+        width: 92.3vw; /*kutucuğun yatay uzunluğu*/
+        height: 60vh; /*kutucuğun dikey uzunluğu*/
+        border: 3px solid black; /*kutucuğun dışına çerçeve eklemek için*/
+        margin: 158px auto auto 2vw /*margin: top right bottom left ayarlamaları*/
+    }
+}
+.out {
+    position: absolute; /*elementin bulunduğu yere boşluk bırakmaz*/
+    display: table; /*element öncesi ve sonrası bir satır ara ile blok düzeyi tablo*/
+    width: 100%; /*elementin yatay uzunluğu*/
+}
+.in {
+    display: table-cell; /*yazıyı ortalamada yardımcı olur*/
+    vertical-align: middle; /*dikey olarak ortalamak için*/
+    text-align: center; /*yazıyı ortalamak için*/
+    font-size: 50px; /*yazının boyutu*/
+}
+
+.inheader {
+    float: right; /*inheader ı kutucuğun sağına yaslar*/
+    background-color: dodgerblue; /*inheader kutucuğunun arka plan rengi*/
+    width: 100px; /*inheader ın yatay uzunkluğu*/
+    height: 25px; /*inheader ın dikey uzunluğu*/
+    border-left: 3px solid black; /*inheader ın sol tarafına çerçeve ekler*/
+    border-bottom: 3px solid black; /*inheader ın altına çerçeve ekler*/
+    text-align: center; /*inheader ı ortalamak için*/
+}
+.intext {
+    margin-top: 30px; /*menü içindeki yazının yukardan ne kadar boşluk kalacağı*/
+}
+#text1.inheader /*inheader class ı içindeki id elementi*/ 
+{
+    color: lightcyan /*Menü başlığı yazısının rengi*/
+}
+#text2.inheader /*inheader class ı içindeki id elementi*/ 
+{
+    color: salmon /*Menü başlığı yazısının rengi*/
+}
+#text3.inheader /*inheader class ı içindeki id elementi*/ 
+{
+    color: midnightblue /*Menü başlığı yazısının rengi*/
+}
